@@ -1,0 +1,15 @@
+- name: Build Kernel  
+    uses: dabao1955/kernel_build_action@main  
+    with:  
+       kernel-url: https://github.com/ben443/android_kernel_samsung_q5q_sm8550.git  
+       kernel-branch: staging/lineage-21-2  
+       config: q5q_defconfig  
+       arch: arm64  
+       aosp-gcc: true  
+       aosp-clang: true  
+       ksu: false  
+       ksu-version: main  
+       android-version: 14  
+       aosp-clang-version: r450784d  
+       disable-lto: true  
+       anykernel3: false 
