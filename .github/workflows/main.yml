@@ -16,7 +16,7 @@ jobs:
       with:
           kernel-url: https://github.com/ben443/android_kernel_samsung_q5q_sm8550.git  
           kernel-branch: staging/lineage-21-2  
-          config: q5q_defconfig  
+          config: gki_defconfig  
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
